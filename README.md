@@ -22,10 +22,9 @@ Sistema de monitoramento conversacional para missão espacial. Utiliza inteligê
 ## Como Executar
 O sistema foi projetado para rodar no Google Colab.
 
-1. Acesse o Notebook: [Link Público do seu Colab Aqui]
-2. Configure a sua chave de API da OpenAI nos "Secrets" (variáveis de ambiente) do Colab utilizando o nome `OPENAI_API_KEY`. Conceda o acesso quando o Colab solicitar.
-3. Execute todas as células em ordem. 
-4. O terminal interativo será iniciado no output da última célula. Para encerrar, digite 'sair'.
+1. Acesse o Notebook: [Colab](https://colab.research.google.com/drive/1-58xQpilfYQpavSF1xEUkRroNlVKkhtk?usp=sharing)
+2. Execute todas as células em ordem. 
+3. O terminal interativo será iniciado no output da última célula. Para encerrar, digite 'sair'.
 
 ## Vídeo de Demonstração
 [Assistir ao vídeo](Link do YouTube aqui)
