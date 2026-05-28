@@ -1,9 +1,8 @@
 # Mission Control AI - Projeto Hélios
 
 **Integrantes:**
-* Nome Completo - RM: XXXXXX
-* Nome Completo - RM: XXXXXX
-* Nome Completo - RM: XXXXXX (Se houver)
+* Cristhian Henrique  Clementino - RM: 574117
+* Diego de Oliveira Brandão - RM: 569773
 
 ## Descrição do Projeto
 Sistema de monitoramento conversacional para missão espacial. Utiliza inteligência artificial para analisar dados simulados de telemetria (temperatura, energia e comunicação). O sistema conta com uma camada lógica de verificação em código que emite alertas autônomos quando os parâmetros entram em situação crítica, integrando esses dados ao contexto da IA para emissão de diretrizes técnicas seguras.
