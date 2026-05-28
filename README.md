@@ -14,9 +14,17 @@ Sistema de monitoramento conversacional para missão espacial. Utiliza inteligê
 * **Bibliotecas:** `random`, `os`, `google.colab.userdata`, `openai`
 
 ## Demonstração
+
+**1. Status Operacional Normal** Causado pela geração aleatória de parâmetros de telemetria dentro dos limites de segurança (ex: Temperatura a 50°C, Energia a 80%, Comunicação estável). A camada lógica do Python atesta a normalidade antes de qualquer input.  
 ![Dados da missão normais](assets/print1_normal.png)
+
+**2. Alerta Crítico do Sistema** Causado pela geração de parâmetros operacionais em estado de risco (ex: Temperatura > 85°C ou Energia < 20%). O código intercepta o desvio e exibe avisos automáticos de falha no terminal.  
 ![Alerta crítico do sistema](assets/print2_alerta.png)
+
+**3. Diagnóstico e Resposta da IA** Causado pela inserção de um comando do usuário solicitando o status das falhas detectadas. A IA processa o *system prompt* em conjunto com a telemetria atual e fornece recomendações técnicas para mitigação.  
 ![Resposta e análise da IA 1](assets/print3_ia_resposta.png)
+
+**4. Retenção de Contexto (Conversa Contínua)** Causado pelo envio de uma pergunta de seguimento em relação à resposta anterior (ex: "Detalhe a primeira recomendação"). Demonstra a retenção do histórico do terminal e a capacidade da IA de manter o contexto da missão sem precisar receber os dados novamente.  
 ![Resposta e análise da IA 2](assets/print4_ia_conversa.png)
 
 ## Como Executar
