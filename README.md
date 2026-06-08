@@ -35,4 +35,4 @@ O sistema foi projetado para rodar no Google Colab.
 3. O terminal interativo será iniciado no output da última célula. Para encerrar, digite 'sair'.
 
 ## Vídeo de Demonstração
-[Assistir ao vídeo](Link do YouTube aqui)
+[Assistir ao vídeo]([Link](https://www.youtube.com/watch?v=cupWJ2E0pOI))
